@@ -1,0 +1,153 @@
+.about-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:50px;
+    margin: 70px 90px;
+}
+.about-title{
+    position: relative;
+
+}
+.about-title span{
+    color: aqua;
+}
+.about-title h1{
+    padding: 50px 0px;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+}
+.about-title img{
+    position: absolute;
+    bottom: 0;
+    right:0px;
+    z-index: -1;
+}
+.profile-pic-img{
+    width:20em;
+    height: 22em;
+    border-radius: 50px;
+    box-shadow: 0px 0px 35px azure;
+}
+.about-section{
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+
+}
+.about-right-side{
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+}
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Skill-section{
+    margin-top: 10em;
+   margin-left: 10em;
+    
+}
+.skil-header{
+   
+    font-size: 5rem;
+    text-align: center;
+    margin: 5rem;
+}
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.about-skill{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    transition: 03s;
+    
+}
+.about-skill p{
+    font-family: 'Roboto';
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-skill hr{
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    width:50%;
+    height: 8px;
+    border-radius: 50px;
+    background:linear-gradient(267deg,#DA7C25 .36%, #b923E1 102.06%);
+
+}
+
+@media screen and (max-width:768px) {
+    .about-cont{
+    gap:0px;
+    margin: 0px 15px;
+    }
+    .about-title h1{
+        padding: 50px 0px;
+        font-size: 70px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .about-right-side{
+        flex-direction: column;
+    }
+    .profile-pic-img{
+        width:20em;
+        height: 22em;
+        border-radius: 50px;
+        box-shadow: 0px 0px 35px azure;
+        margin-left: 30px;
+    }
+    .Skill-section{
+        padding-left: 0;
+    }
+    .about-skills{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    
+    }
+    .about-skill{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+        align-items:none;
+    }
+
+    .Skill-section{
+        margin-top: 0em;
+       margin-left: 0em;
+        
+    }
+   
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .about-right-side{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-pic-img{
+        width:25em;
+        height: 25em;
+        margin-left: 40px;
+    }
+    .Skill-section{
+        margin-top: 0em;
+       margin-left: 0em;
+        
+    }
+    
+}
