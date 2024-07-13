@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/github.io/Aravind_portfolio/static/css/main.2b27227d.css",
+    "main.js": "/github.io/Aravind_portfolio/static/js/main.c899c70f.js",
+    "static/js/787.d3befce1.chunk.js": "/github.io/Aravind_portfolio/static/js/787.d3befce1.chunk.js",
+    "static/media/profile2.jpeg": "/github.io/Aravind_portfolio/static/media/profile2.da2ba43b82ce7f5ad347.jpeg",
+    "static/media/profile1.jpeg": "/github.io/Aravind_portfolio/static/media/profile1.917ce75700c1fb128530.jpeg",
+    "index.html": "/github.io/Aravind_portfolio/index.html",
+    "main.2b27227d.css.map": "/github.io/Aravind_portfolio/static/css/main.2b27227d.css.map",
+    "main.c899c70f.js.map": "/github.io/Aravind_portfolio/static/js/main.c899c70f.js.map",
+    "787.d3befce1.chunk.js.map": "/github.io/Aravind_portfolio/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b27227d.css",
+    "static/js/main.c899c70f.js"
+  ]
+}
