@@ -70,32 +70,38 @@
         display: block;
         position: fixed;
         right: 30px;
-        width:5em;
+        width:3em;
+        top:20px;
+        cursor: pointer;
     }
     .nav-mob-close{
         display: block;
         position: relative;
         top:40px;
-        left:250px;
-        width:50px;
+        left:160px;
+        width:40px;
+        cursor: pointer;
     }
     .nav-menu{
         position: fixed;
         flex-direction: column;
         align-items: start;
-        top:0;
+        top:0px;
         gap:30px;
-        background-color: #1f001f;
-        width:350px;
+        background-color:black;
+        opacity: 0.8;
+        width:230px;
         height: 100%;
         z-index:2;
         transition: right 0.5s;
         right: -350px;
-        border-radius: 70px;
+        border-radius: 10px;
+        cursor: pointer;
+        padding-top: 10px;
     }
     .nav-menu li{
-        font-size: 30px;
-        padding-left: 100px;
+        font-size: 25px;
+        padding-left: 20px;
         flex-direction: row;
         gap:20px;
     }

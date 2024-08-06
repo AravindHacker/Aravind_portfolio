@@ -4,6 +4,7 @@
     justify-content: center;
     gap:50px;
     margin: 70px 90px;
+    font-family: 'Roboto';
 }
 .about-title{
     position: relative;
@@ -96,19 +97,18 @@
     }
     .about-title h1{
         padding: 50px 0px;
-        font-size: 70px;
-        font-weight: 600;
-        text-align: center;
+        font-size: 60px;
+        
     }
     .about-right-side{
         flex-direction: column;
     }
     .profile-pic-img{
-        width:20em;
+        width:18em;
         height: 22em;
         border-radius: 50px;
         box-shadow: 0px 0px 35px azure;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .Skill-section{
         padding-left: 0;

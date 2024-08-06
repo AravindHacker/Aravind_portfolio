@@ -1,7 +1,7 @@
 .edu-heading{
   font-size: 5rem;
   text-align: center;
-  margin: 5rem;
+  margin-top: 50px;
 }
 .education{
     padding: 100px 15px;
@@ -92,7 +92,9 @@
 
 @media screen and (max-width:768px) {
     .edu-heading{
-        padding: 2rem 3%;
+        padding-left: 0;
+        text-align: center;
+        font-size: 4rem;
     }
     .timeline-items::before{
         left:7px
@@ -109,7 +111,11 @@
         left: 0px;
     }
     .timeline-item{
-        width:70%;
+        width:80%;
+    }
+    .timeline-content{
+        
+        padding: 10px 50px;
     }
    
 }

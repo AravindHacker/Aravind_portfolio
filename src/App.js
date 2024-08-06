@@ -4,6 +4,7 @@ import Home from './Component/Home'
 import About from './Component/About'
 import Projects from './Component/Projects'
 import Education from './Component/Education'
+import Footer from './Component/Footer'
 
 import './App.css'
 import Contact from './Component/Contact'
@@ -16,6 +17,7 @@ import Contact from './Component/Contact'
        <Education />
        <Projects />
        <Contact />
+       <Footer />
       </div>
   )
 }

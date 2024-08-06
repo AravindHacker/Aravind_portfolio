@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="navbar">
             <img src="https://cdn-icons-png.flaticon.com/128/812/812847.png"  onClick={openMenu} alt="icon"  className='nav-mob-open'/>
             <ul ref={menuRef} className="nav-menu">
-                <img src='https://cdn-icons-png.flaticon.com/128/15059/15059105.png' onClick={closeMenu} alt='close'  className='nav-mob-close'/>
+                <img src='https://cdn-icons-png.freepik.com/256/9058/9058428.png?ga=GA1.1.869436679.1670727159&semt=ais_hybrid' onClick={closeMenu} alt='close'  className='nav-mob-close'/>
                 <li>
                     <AnchorLink className='anchor-link' href='#home'>
                         <p onClick={() => setMenu("home")}>Home</p>

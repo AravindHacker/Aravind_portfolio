@@ -12,6 +12,7 @@
     justify-content: center;
     gap:20px;
     margin: 80px 170px;
+    font-family: 'Roboto';
 }
 .contact-title{
     position: relative;
@@ -112,8 +113,8 @@
 }
 @media screen and (max-width:768px) {
     .contact{
-        gap:40px;
-        margin: 40px 90px;
+        gap:20px;
+        margin: 50px 10px;
         align-items: start;
 
     }
@@ -124,14 +125,20 @@
             width:130px;
             margin-right: -20px;
     }
+   
     .contact-section{
         flex-direction: column;
+       
     }
     .contact-left h1{
         font-size: 54px;
+        text-align: center;
     }
     .contact-left p{
-        font-size: 18px;
+        font-size: 20px;
+    }
+    .contact-details{
+        gap:0px;
     }
     .contact-detail{
         gap:20px;
@@ -143,10 +150,31 @@
         font-size: 20px;
     }
     .contact-right input{
-        width: 100%;
+        width: 90%;
+        margin: 10px;
         font-size: 20px;
+        border-radius: 15px;
     }
     .contact-right textarea{
-        width:95%;
+        width:79%;
+        margin: 10px;
     }
+    .contact-right textarea{
+       border-radius: 14px;
+    }
+    .contact-submit{
+       margin-top: 20px;
+       margin-left: 20px;
+        border-radius: 30px;
+        width:80%;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .contact-section{
+        
+        flex-direction: column;
+        gap:100px;
+    }
+    
 }
