@@ -54,29 +54,30 @@
    margin-left: 10em;
     
 }
-.skil-header{
-   
-    font-size: 5rem;
+.Skill-header{
+    font-size:5rem;
     text-align: center;
     margin: 5rem;
+    text-align: center;
+}
+.Skill-header span{
+    color: aqua;
 }
 .about-skills{
     display: flex;
     flex-direction: column;
     gap:10px;
-
 }
 .about-skill{
     display: flex;
     gap:50px;
     align-items: center;
-    transition: 03s;
-    
+    transition: 03s; 
 }
 .about-skill p{
     font-family: 'Roboto';
     min-width: 150px;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
 }
 .about-skill hr{

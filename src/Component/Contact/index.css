@@ -19,10 +19,14 @@
 }
 .contact-title h1{
      padding: 0px 30px;
-     font-size: 80px;
+     font-size: 70px;
      font-weight: 600;
 
-}
+
+ }
+ .contact-title h1 span{
+    color: aqua;
+ }
 .contact-title img{
     position: absolute;
     bottom:0;
@@ -68,7 +72,8 @@
 .contact-right{
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap:35px;
+    padding-top: 60px;
 }
 .contact-right label{
     color: #fff;
@@ -105,7 +110,7 @@
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
-    width:27%;
+    width:50%;
 }
 .contact-submit:hover{
     transform: scale(1.1);

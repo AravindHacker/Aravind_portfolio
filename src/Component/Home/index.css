@@ -8,8 +8,8 @@
 
 }
 .profile-img{
-    width:25em;
-    border-radius: 50%;
+    width:23em;
+    border-radius: 13%;
     margin-left: 7em;
     margin-top: 20px;
     box-shadow: 0 0 30px rgb(177, 216, 216);
@@ -38,7 +38,7 @@
 .home-actions{
     display: flex;
     align-items: center;
-    gap:35px;
+    gap:60px;
     font-size: 24px;
     font-weight: 500;
     padding-left:35em;

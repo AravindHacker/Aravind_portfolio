@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll'; // Make sure this package is installed
+import AnchorLink from 'react-anchor-link-smooth-scroll'; 
 import './index.css';
 
 const Navbar = () => {
@@ -49,6 +49,7 @@ const Navbar = () => {
                     {menu === "Contact" && <img src='' alt='' />}
                 </li>
             </ul>
+            
         </div>
     );
 };
